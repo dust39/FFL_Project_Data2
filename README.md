@@ -29,9 +29,9 @@ Below is information on how to run the program followed by the features I select
     <>For those on other Operating Systems or Anaconda the only libraries/packages/modules that I used were: Pandas, Matplotlib, and ipython/ipykernel for the Jupyter portion. 
 3. Navigate back to the cloned directory if different from virtual environment directory. Then run main.py from your command prompt:
     1. Nothing else is required from the user.
-        - The script will iterate over 50 CSV files that contain yearly fantasy football scores. As noted above: The script will then concatenate all 50 CSV files into one large data frame, add a year column, and filter out unwanted data. Finally the script will output one main CSV file. This large master CSV file (named "Appended_FFL_data.CSV") will be used to create visualizations and analyze the fantasy football data.
+        1. The script will iterate over 50 CSV files that contain yearly fantasy football scores. As noted above: The script will then concatenate all 50 CSV files into one large data frame, add a year column, and filter out unwanted data. Finally the script will output one main CSV file. This large master CSV file (named "Appended_FFL_data.CSV") will be used to create visualizations and analyze the fantasy football data.
 4. I also created a Juptyer Notebook with markdown to explain each block of my code for documentation.
-    - The user will be able to run this Jupyter notebook if the user has created a virutal environment using my requirements.txt file, which is included in the repository.
+    1. The user will be able to run this Jupyter notebook if the user has created a virutal environment using my requirements.txt file, which is included in the repository.
         
 **Thats it! Now on to how I met my project requirements below.**
 
