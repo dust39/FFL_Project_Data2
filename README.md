@@ -9,12 +9,13 @@ The main goal of this project is to answer a simple question related to fantasy 
 1. What position scores the most points in an average year?
 
 1. Running the program will do the following:
-    1. Outline step 1 
-    2. Outline step 2 
-    3. Outline step 3
-    4. Finally the program will create and save a .jpg file titled with the selected year.
+    1. Iterate over a quantity of 50 yearly CSV files containing fantasy football statistics.
+    2. The script will add a year column
+    3. The script will filter out unwanted/erroneous data.
+    4. Finally the script will combine all 50 CSV files into one large master CSV file named "Appended_FFL_data.CSV".
+    5. I will then use this master CSV file to do visualizations and analysis in Tableau.
 
-I chose this project to show my skills because I love fantasy football. I wanted to work on a project about a subject that interests me so that I can continue to advance and improve the skills I have learned.
+I chose this project to show my skills because I love fantasy football. I wanted to work on a project about a subject that interests me so that I can continue to advance and improve the skills I have learned. I sourced my data from [FantasyDataPros](https://www.fantasyfootballdatapros.com/csv_files).
 
 ### My Project Features
 Below is information on how to run the program followed by the features I selected to meet my project requirements:
@@ -24,11 +25,13 @@ Below is information on how to run the program followed by the features I select
 1. Clone my repository 
 2. Navigate to the directory where your virtual environment will be created
     1. Create your virtual environment
-    2. Install the required packages using my generated requirements.txt. I created requirements.txt on a windows machine. 
-    <>For those on other Operating Systems I created a pared down version named requirements_multi_OS.txt
+    2. Install the required packages using my generated requirements.txt. I created requirements.txt on a windows machine and in standard python. 
+    <>For those on other Operating Systems or Anaconda the only libraries/packages/modules that I used were: Pandas, Matplotlib, and ipython/ipykernel for the Jupyter portion. 
 3. Run main.py from your command prompt:
-    1. Create list here
-        1. Create sublist here
+    1. Nothing else is required from the user.
+        - The script will iterate over 50 CSV files that contain yearly fantasy football scores. As noted above: The script will then concatenate all 50 CSV files into one large data frame, add a year column, and filter out unwanted data. Finally the script will output one main CSV file. This large master CSV file (named "Appended_FFL_data.CSV") will be used to create visualizations and analyze the fantasy football data.
+4. I also created a Juptyer Notebook with markdown to explain each block of my code for documentation.
+    - The user will be able to run this Jupyter notebook if the user has created a virutal environment using my requirements.txt file, which is included in the repository.
         
 **Thats it! Now on to how I met my project requirements below.**
 
@@ -42,8 +45,8 @@ I load 50 data sets, which are CSV files. There is one data set for each year fr
 - I clean and filter the data
     - I removed erroneous columns using drop
     - I removed all rows for which the listed player did not have a listed position by using `.query`.
-#### Category 3-Choose from featue list 
-Explain how I met this requirement
+#### Category 3-Visualization usign a Tableau Dashboard
+I used Tableau to do my analysis and create a dashboard. The link to the dashboard is [Dustin's Fantasy Analysis Dashboard](https://public.tableau.com/app/profile/dustin.littrell/viz/FFL_Project_Data_Analysis2_2022/SampleAnalysis?publish=yes).
 #### Category 4 -Best Practices 
 For this requirement I created a virtual environment to complete my project. I used the Python PIP Freeze command to periodically list my document library dependencies via a requirements.txt file, which is in my repository for this project. The use of the requirements.txt file is outlined in the Steps to Run my Program section above. Fortunately I have not added any additional library installs since the beginning of my project. So, even though I have run PIP Freeze command periodically, nothing has changed so the file in GitHub is also unchanged.
 
