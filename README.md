@@ -51,6 +51,10 @@ I used Tableau to do my analysis and create a dashboard. The link to the dashboa
 For this requirement I created a virtual environment to complete my project. I used the Python PIP Freeze command to periodically list my document library dependencies via a requirements.txt file, which is in my repository for this project. The use of the requirements.txt file is outlined in the Steps to Run my Program section above. Fortunately I have not added any additional library installs since the beginning of my project. So, even though I have run PIP Freeze command periodically, nothing has changed so the file in GitHub is also unchanged.
 
 At the time of posting this project, I was not aware that PIP Freeze may cause issues for users on other Operating Systems. I left the requirements.txt in tact because I have had other users test it and I know it works on Windows machines. However, I also created a separate requirements file named requirements_multi_OS.txt. This is a pared down version and should allow users with other operating systems to match my libraries for this project. If a user is still having problems the main libraries/packages/modules that I used were: Pandas, Matplotlib, and ipython/ipykernel for the Jupyter portion.
+
+#### Category 5 -Interpretation of the Data
+I used Tableau to do my analysis and create visualizations. However I created a jupyter notebook that performs the same functions as my main.py. The difference is I used markdown to explain groups of my code blocks. Additionally, I added some more script to give visual representation of the CSV/Data Frames changing through out the script.
+
 #### Git / GitHub
 
 I continued my utilization of Git and furthered my knowledge on the subject during this project. I learned Git terminal command using GitBash.  I tried to make commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://https://github.com/dust39/FFL_Project_Data2/commits/main). Below are the Git terminal commands I learned and used most often.
