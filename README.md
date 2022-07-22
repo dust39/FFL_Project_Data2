@@ -5,8 +5,7 @@ ________________________________________________________________________________
 My intent for this project is to demonstrate my Git/GitHub, Python, and Tableau knowledge. The Python portion of my project is geared toward data analysis. 
 
 ## My Project 
-The main goal of this project is to answer a simple question related to fantasy football. 
-1. What position scores the most points in an average year?
+The main goal of this project is to answer a simple question related to fantasy football. Fantasy football predictions and projections can vary widely every year based on a variety of factors. I wanted to keep it simple and look at 50 years of data to determine if a user can find that a certain player position provided more value than antoher. If forced to make a quick decision in a draft or in free agency can player position be used to help facilitate that decision making process based on actual data?
 
 1. Running the program will do the following:
     1. Iterate over a quantity of 50 yearly CSV files containing fantasy football statistics.
@@ -57,7 +56,7 @@ I used Tableau to do my analysis and create visualizations. However I created a 
 
 #### Git / GitHub
 
-I continued my utilization of Git and furthered my knowledge on the subject during this project. I learned Git terminal command using GitBash.  I tried to make commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://https://github.com/dust39/FFL_Project_Data2/commits/main). Below are the Git terminal commands I learned and used most often.
+I continued my utilization of Git and furthered my knowledge on the subject during this project. I learned Git terminal command using GitBash.  I tried to make commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://github.com/dust39/FFL_Project_Data2/commits/main). Below are the Git terminal commands I learned and used most often.
 
 - Git init : to initialize my local repository.
 - Git status: to check the status of any file changes in my local repository.
