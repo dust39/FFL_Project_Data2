@@ -45,7 +45,7 @@ I load 50 data sets, which are CSV files. There is one data set for each year fr
     - I removed erroneous columns using drop
     - I removed all rows for which the listed player did not have a listed position by using `.query`.
 #### Category 3-Visualization usign a Tableau Dashboard
-I used Tableau to do my analysis and create a dashboard. The link to the dashboard is [Dustin's Fantasy Analysis Dashboard](https://public.tableau.com/app/profile/dustin.littrell/viz/FFL_Project_Data_Analysis2_2022/SampleAnalysis?publish=yes).
+I used Tableau to do my analysis and create a dashboard. The link to the dashboard is [Dustin's Fantasy Analysis Dashboard](https://public.tableau.com/views/FFL_Project_Data_Analysis2_2022/OverallPointsvsAvgPointsvsPositionCount?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 #### Category 4 -Best Practices 
 For this requirement I created a virtual environment to complete my project. I used the Python PIP Freeze command to periodically list my document library dependencies via a requirements.txt file, which is in my repository for this project. The use of the requirements.txt file is outlined in the Steps to Run my Program section above. Fortunately I have not added any additional library installs since the beginning of my project. So, even though I have run PIP Freeze command periodically, nothing has changed so the file in GitHub is also unchanged.
 
